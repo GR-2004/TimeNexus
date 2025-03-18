@@ -47,3 +47,9 @@ export function onboardingSchemaValidation(options?: {
       fullName: z.string().min(3).max(50),
   });
 }
+
+export const settingSchema = z.object({
+  fullName: z.string().min(3).max(50),
+
+  profileImage: z.string(),
+});
