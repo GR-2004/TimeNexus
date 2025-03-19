@@ -56,7 +56,7 @@ export default function OnboardingPage() {
               <Label>Username</Label>
               <div className="flex rounded-md">
                 <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-muted bg-muted text-sm text-muted-foreground">
-                  CalMarshal.com/
+                  TimeNexus.com/
                 </span>
                 <Input
                   placeholder="example-user-1"
