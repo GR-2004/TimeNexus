@@ -41,7 +41,7 @@ async function getData(userId: string) {
 export default async function MeetingPage() {
   const session = await requireUser();
   const data = await getData(session.user?.id as string);
-
+  console.log(data);
   return (
     <>
       {data.data.length < 1 ? (
