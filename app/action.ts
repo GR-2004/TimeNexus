@@ -326,3 +326,17 @@ export async function UpdateEventTypeStatusAction(
     };
   }
 }
+
+export async function DeleteEventAction(formData: FormData) {
+  const session = await requireUser();
+  const data = await prisma.eventType.delete({
+    where: {
+      id: formData.get("eventId") as string,
+      userId: session.user?.id,
+    }
+  })
+  if(!data) {
+    throw new Error("Event not found")
+  }
+  return redirect("/dashboard");
+}
