@@ -65,18 +65,22 @@ export default async function MeetingPage() {
                   <div>
                     <p className="text-muted-foreground text-sm">
                       {format(
+                        // @ts-ignore
                         fromUnixTime(event.when.startTime),
                         "EEE, dd MMM"
                       )}
                     </p>
                     <p className="text-muted-foreground text-xs pt-1">
+                      {/* @ts-ignore */}
                       {format(fromUnixTime(event.when.startTime), "hh:mm a")} -{" "}
+                      {/* @ts-ignore */}
                       {format(fromUnixTime(event.when.endTime), "hh:mm a")}
                     </p>
                     <div className="flex items-center mt-1">
                       <Video className="size-4 text-primary mr-2" />
                       <a
                         className="text-xs text-primary underline underline-offset-4"
+                        // @ts-ignore
                         href={event.conferencing.details.url}
                         target="_blank"
                       >
