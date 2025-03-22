@@ -23,7 +23,7 @@ export function Testimonial() {
           </svg>
 
           <span className="relative z-10">
-            "TimeNexus is a game-changer! The best platform I've ever used. I highly recommend it—give it a shot!"
+          &quot;TimeNexus is a game-changer! The best platform I&apos;ve ever used. I highly recommend it—give it a shot!&quot;
           </span>
         </p>
 
