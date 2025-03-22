@@ -23,8 +23,7 @@ export function Testimonial() {
           </svg>
 
           <span className="relative z-10">
-            Wow TimeNexus is the best platform I have ever used. Definitley
-            recomment it to you guys, try it out!
+            "TimeNexus is a game-changer! The best platform I've ever used. I highly recommend it—give it a shot!"
           </span>
         </p>
 

@@ -4,10 +4,11 @@ export function CTA() {
   return (
     <section className="my-20 relative isolate overflow-hidden px-6 py-20 text-center sm:rounded-3xl sm:border sm:shadow-sm">
       <h2 className="font-bold text-3xl tracking-tight sm:text-4xl">
-        Start using TimeNexus now!
+        Simplify Scheduling with TimeNexus! 📅
       </h2>
       <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-sm mx-auto">
-      TimeNexus makes it easy for your clients to schedule a meeting with your!
+        Say goodbye to scheduling chaos! Let your clients book meetings with you
+        effortlessly—anytime, anywhere.
       </p>
       <div className="mt-6">
         <AuthModal />

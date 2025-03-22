@@ -6,16 +6,15 @@ export function Hero() {
   return (
     <section className="flex flex-col items-center justify-center relative py-12 lg:py-20">
       <div className="text-center">
-        <span className="text-sm text-primary font-medium tracking-tight bg-primary/10 px-4 py-2 rounded-full">
-          Introducing TimeNexus 1.0
+        <span className="text-sm text-primary font-semibold tracking-wide uppercase bg-primary/10 px-5 py-2 rounded-full">
+          🚀 Introducing TimeNexus 1.0
         </span>
-        <h1 className="mt-8 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium leading-none">
-          Now Scheduling Metting{" "}
-          <span className="block text-primary -mt-2">super easy</span>
+        <h1 className="mt-8 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold leading-tight">
+          Effortless Meeting Scheduling
+          <span className="block text-primary -mt-2">at Your Fingertips</span>
         </h1>
-        <p className="max-w-xl mx-auto mt-4 lg:text-lg text-muted-foreground">
-          Scheduling a meeting can be a pain. But we at TimeNexus make it easy
-          for your team to schedule meetings.
+        <p className="max-w-xl mx-auto mt-6 text-lg text-muted-foreground leading-relaxed">
+          Say goodbye to scheduling headaches! TimeNexus simplifies meeting coordination, making it seamless and stress-free for your team.
         </p>
         <div className="mt-5 mb-12">
           <AuthModal />

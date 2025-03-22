@@ -30,15 +30,13 @@ const features = [
 export function Features() {
   return (
     <div className="py-24">
-      <div className="max-w-2xl mx-auto lg:text-center">
-        <p className="font-semibold leading-7 text-primary">Schedule faster</p>
+       <div className="max-w-2xl mx-auto lg:text-center">
+        <p className="font-semibold leading-7 text-primary">Schedule Smarter, Not Harder</p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-          Schedule meetings in minutes!
+          Plan, Schedule, and Connect Instantly
         </h1>
         <p className="mt-6 text-base leading-snug text-muted-foreground">
-          With TimeNexus you can schedule meetings in minutes. We make it easy
-          for you to schule meetingsin minutes. The meetings are very fast and
-          easy to schedule.
+          With TimeNexus, organizing meetings has never been easier. Say goodbye to endless email chains and scheduling conflicts—get things done in just a few clicks!
         </p>
       </div>
 
