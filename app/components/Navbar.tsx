@@ -3,6 +3,7 @@ import Link from "next/link";
 import Logo from "@/public/logo.png";
 import { Button } from "@/components/ui/button";
 import { AuthModal } from "./AuthModal";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Navbar() {
   return (
@@ -13,7 +14,10 @@ export function Navbar() {
           Time<span className="text-blue-500">Nexus</span>
         </h4>
       </Link>
+      <div className="hidden md:flex md:justify-end md:items-center md:space-x-4">
+        <ThemeToggle />
       <AuthModal />
+      </div>
     </div>
   );
 }
